@@ -9,7 +9,7 @@ import grpc
 import alert_pb2
 import alert_pb2_grpc
 
-GRPC_HOST = "localhost:50051"
+GRPC_HOST = "192.168.122.53:50051"
 
 app = Flask(__name__)
 

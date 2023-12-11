@@ -1,4 +1,8 @@
-# web-page-demo
+# Web Page Demo
+
+# Запуск
+
+## Локально
 
 Для запуска веб-приложения, необходимо сначала проинициализировать sqlite3 БД с помощью команды
 
@@ -18,9 +22,13 @@ python -m grpc_tools.protoc -I=proto --python_out=. --pyi_out=. --grpc_python_ou
 python3 app.py
 ```
 
-Или запустить с помощью `docker`:
+После чего приложение будет доступно по адресу `localhost:5000`.
+
+## С помощью Docker
+
+Запустить с помощью `docker-compose`:
 ```bash
 sudo docker-compose up -d
 ```
 
-После чего приложение будет доступно по адресу `localhost:5000`
+После чего приложение будет доступно по адресу `localhost:5000`.
